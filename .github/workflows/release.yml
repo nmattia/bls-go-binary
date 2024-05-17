@@ -39,7 +39,7 @@ jobs:
           git config user.email github-actions@github.com
           git push --set-upstream origin release
   build-linux:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-20.04
     needs: create-branch
     steps:
       - name: Checkout code
