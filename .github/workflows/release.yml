@@ -201,7 +201,7 @@ jobs:
           fi
 
   build-windows:
-    runs-on: windows-latest
+    runs-on: windows-2019
     needs: build-macos
     steps:
       - name: Checkout code
